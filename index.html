@@ -1,26 +1,28 @@
 <html>
-<head> 
+<head>
 <link rel="stylesheet" href="rock.css">
  </head>
 <body>
 <header><h1>Stone Paper Scissors</h1>
 </header>
 <div class ="score-board">
-<p class="user" > User</p>
-<p class="comp"> Comp </p>
-<p class="score"> 0:0 </p>
+
+<p class="user"> User</p>
+<p class="comp" > Comp</p>
+<span id="users"> 0</span>:<span id="comps"> 0 </span>
 
 </div>
-<div class="ins">
-Paper beats rock.<br>
-Scissor beats paper.<br>
-Rock beats scissor.<br>
+<div id="ins">
+Paper beats rock. <br>
+Scissor beats paper. <br>
+Rock beats scissor. <br>
 </div>
 <div id="pic">
-<img src="rock.jpg" class="r"></img>
-<img src="Paper.jpg" class="r"></img>
-<img src="Scissor.png" class="r"></img>
+<img src="rock.jpg" id="r"></img>
+<img src="Paper.jpg" id="p"></img>
+<img src="Scissor.png" id="s"></img>
 </div>
 <div class="make">Make your move.</div>
+<script src="rock.js" ></script>
 </body>
 </html>
